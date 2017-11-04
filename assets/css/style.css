@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+}
+
+div {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 40px;
+	height: 80px;
+	width: 80px;
+	display: table-cell; /*cada elemento que crea queda a la misma altura que el otro */
+}
+
+#bomb-it {
+	margin-left: 37%;
+}
+
+button {
+	background-color: #000;
+	color: #fff;
+	margin-top: 5%;
+	padding: 1%;
+	border: none;
+}
+
+img {
+	width: 350px;
+	margin: 2% 35%;
+}
+
+.number {
+	margin: 0;
+	color: #FFf;
+}
+
+.numberShow {
+	color: #000;
+}
+
+div:hover {
+	cursor: pointer;
+}
